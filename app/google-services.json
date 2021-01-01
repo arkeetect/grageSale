@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785415768227",
+    "project_id": "garagesale-99c1c",
+    "storage_bucket": "garagesale-99c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785415768227:android:3ee3448a838683c0e71716",
+        "android_client_info": {
+          "package_name": "com.muhammadyaseen.classifiedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785415768227-c5cmusgu35hbtujd6n30c5tdc9i3iv4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHh-dP7tPmiLnrxjWa8QllOxlwrqa8KDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785415768227-c5cmusgu35hbtujd6n30c5tdc9i3iv4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

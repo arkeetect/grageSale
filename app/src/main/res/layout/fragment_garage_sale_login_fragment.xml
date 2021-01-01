@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".garageSale_login_fragment"
+    android:orientation="vertical"
+
+
+    android:id="@+id/garageSale_login_fragment"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GARAGE\nSALE"
+
+
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/garage"
+
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:ems="7"
+        android:alpha="0.9"
+        android:fontFamily="sans-serif-condensed-light"
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email_login"
+            android:textAllCaps="false"
+            android:textColor="@color/garage"
+            android:layout_marginStart="12sp"
+            android:layout_marginEnd="12sp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            android:backgroundTint="@color/colorPrimaryDark"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        app:passwordToggleEnabled="true"
+
+
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passwords"
+            android:id="@+id/passwords_login"
+            android:textAllCaps="false"
+            android:textColor="@color/garage"
+            android:layout_marginStart="12sp"
+            android:layout_marginEnd="12sp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+
+
+            android:backgroundTint="@color/colorPrimaryDark"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded_shape"
+        android:textAllCaps="false"
+        android:id="@+id/forget_passwords_login"
+        android:layout_marginStart="12sp"
+        android:layout_marginEnd="12sp"
+        android:layout_marginTop="12sp"
+        android:textSize="15sp"
+        android:textColor="@color/background"
+        android:textStyle="bold|italic"
+        android:text="Forget Passwords"
+        android:paddingRight="12sp"
+        android:paddingLeft="12sp"
+        android:fontFamily="sans-serif-medium"
+
+        />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signIn_login"
+        android:background="@drawable/button_rounded_shape"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/background"
+        android:textStyle="bold|italic"
+        android:text="Sign In"
+        android:fontFamily="sans-serif-medium"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_login"
+        android:background="@drawable/button_rounded_shape"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/background"
+        android:textStyle="bold|italic"
+        android:text="Register"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+
+
+
+
+</LinearLayout>

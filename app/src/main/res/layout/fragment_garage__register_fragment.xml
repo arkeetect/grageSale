@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".garage_Register_fragment"
+    android:id="@+id/garage_Register_fragment"
+    android:orientation="vertical"
+
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GARAGE\nSALE"
+
+
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/garage"
+
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:ems="7"
+        android:alpha="0.9"
+        android:fontFamily="sans-serif-condensed-light"
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginEnd="12sp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textAllCaps="false"
+            android:textColor="@color/garage"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginEnd="12sp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAllCaps="false"
+            android:textColor="@color/garage"
+            android:textSize="20sp"
+
+
+            android:textStyle="bold"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        app:passwordToggleEnabled="true"
+
+
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Passwords"
+            android:id="@+id/passwords_register"
+            android:textAllCaps="false"
+            android:textColor="@color/garage"
+            android:layout_marginStart="12sp"
+            android:layout_marginEnd="12sp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+
+
+            android:backgroundTint="@color/colorPrimaryDark"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/register_user"
+    android:background="@drawable/button_rounded_shape"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:textAllCaps="false"
+    android:textSize="30sp"
+    android:textColor="@color/background"
+    android:textStyle="bold|italic"
+    android:text="Register"
+    android:fontFamily="sans-serif-medium"
+
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_user"
+        android:background="@drawable/button_rounded_shape"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="@color/background"
+
+
+        android:textStyle="bold|italic"
+        android:text="Sign In "
+        android:fontFamily="sans-serif-medium"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

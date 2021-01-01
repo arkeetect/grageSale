@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forget_Fragment"
+    android:id="@+id/forget_Fragment"
+    android:orientation="vertical"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1sp"
+        android:layout_marginBottom="30sp"
+        android:src="@drawable/forget_icon" />
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:focusable="true"
+    android:layout_columnWeight="1"
+    android:focusableInTouchMode="true"
+    android:textColorHint="@color/colorAccent"
+
+    tools:ignore="MissingConstraints">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12sp"
+        android:layout_marginEnd="12sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:layout_marginBottom="30sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAllCaps="false"
+        android:textColor="@color/garage"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendEmail_forget"
+        android:background="@drawable/button_rounded_shape"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/background"
+        android:textStyle="bold|italic"
+        android:text="Send Email"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="12sp"
+        android:layout_marginEnd="12sp"
+
+        />
+
+</LinearLayout>

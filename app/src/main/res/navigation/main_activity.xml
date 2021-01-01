@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+
+    app:startDestination="@id/garageSale_login_fragment"
+    >
+
+    <fragment
+        android:id="@+id/garageSale_login_fragment"
+        android:name="com.muhammadyaseen.classifiedapp.garageSale_login_fragment"
+        android:label=""
+
+        tools:layout="@layout/fragment_garage_sale_login_fragment" >
+        <action
+            android:id="@+id/action_garageSale_login_fragment_to_garage_Register_fragment"
+            app:destination="@id/garage_Register_fragment" />
+        <action
+            android:id="@+id/action_garageSale_login_fragment_to_forget_Fragment"
+            app:destination="@id/forget_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/garage_Register_fragment"
+        android:name="com.muhammadyaseen.classifiedapp.garage_Register_fragment"
+        android:label=""
+        tools:layout="@layout/fragment_garage__register_fragment" >
+        <action
+            android:id="@+id/action_garage_Register_fragment_to_garageSale_login_fragment"
+            app:destination="@id/garageSale_login_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forget_Fragment"
+        android:name="com.muhammadyaseen.classifiedapp.forget_Fragment"
+        android:label=""
+        tools:layout="@layout/fragment_forget_" />
+
+</navigation>

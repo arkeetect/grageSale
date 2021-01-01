@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/garage_nav_host_fragment"
+    app:startDestination="@id/garageSaleHomeFragment">
+
+    <fragment
+        android:id="@+id/garageSaleHomeFragment"
+        android:name="com.muhammadyaseen.classifiedapp.GarageSaleHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_garage_sale_home" >
+        <action
+            android:id="@+id/action_garageSaleHomeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_garageSaleHomeFragment_to_postFragment"
+            app:destination="@id/postFragment" />
+        <action
+            android:id="@+id/action_garageSaleHomeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <argument
+            android:name="message"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.muhammadyaseen.classifiedapp.PostFragment"
+        android:label="Post"
+        tools:layout="@layout/fragment_post" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.muhammadyaseen.classifiedapp.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.muhammadyaseen.classifiedapp.ProfileFragment"
+        android:label="Setting"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
